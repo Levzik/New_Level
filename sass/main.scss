@@ -1,0 +1,68 @@
+@import "_mixins/_smart-grid.scss";
+@import "_mixins/_custom.scss";
+
+
+
+
+// default styles
+
+body {
+    background: #000000;
+  padding: 0;
+  margin: 0;
+
+}
+
+p,a,button,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+ul {
+  list-style: none;
+}
+li {
+	border: solid 0.5px #fff;
+}
+
+p,h1,h2,h3,h4,h5,h6{
+  color: #fff;
+
+}
+
+
+a{
+  cursor: pointer;
+}
+
+a, a:hover{
+    text-decoration: none;
+}
+
+.container {
+  width: 1110px;
+
+}
+
+p {
+  font-size: 20px;
+}
+
+// End default styles
+
+
+body{
+
+    header{
+
+        .container{
+
+        }
+    }
+    section{
+
+        .container{
+
+        }
+    }
+}
